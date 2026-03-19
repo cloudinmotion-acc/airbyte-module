@@ -116,9 +116,3 @@ kubectl port-forward svc/<release>-airbyte-webapp-svc 8080:8080 -n airbyte
 # API Server
 kubectl port-forward svc/<release>-airbyte-server-svc 8001:8001 -n airbyte
 ```
-
-## Naming Convention
-
-All resources follow the pattern: `{system_name}-airbyte-{environment_type}`
-
-Example: `demomar017-airbyte-dev`
