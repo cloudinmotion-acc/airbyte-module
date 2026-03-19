@@ -1,0 +1,24 @@
+platform_output = {
+  name             = "demomar017"
+  system_name      = "demomar017"
+  environment_type = "dev"
+  owner            = " "
+  tags = {
+    "key" = "value"
+  }
+}
+
+initialization_output = {
+  vpc_id          = "vpc-0 f6c8e8f0"
+  region          = "us-east-1"
+  kms_key_arn     = "arn: 378 62-488e-4d6f-8782-b3c0c0d7cb34"
+  private_subnets = []
+  public_subnets  = []
+  ssh_key_name    = "-dev"
+}
+
+kubernetes_cluster_output = {
+  cluster_name     = "de017-eks-dev"
+  cluster_endpoint = "htgr7.us-east-1.eks.amazonaws.com"
+}
+
